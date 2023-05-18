@@ -616,13 +616,14 @@ img {
 .btn-close-modal:focus {
   background-color: var(--pressed-state-color);
   border: none;
+  fill: var(--white-color);
 }
 
 .icon-close-modal {
   transition: fill var(--transition-duration-and-func);
 }
 
-.btn-close-modal:hover .icon-close-modal:hover,
-.btn-close-modal:focus .icon-close-modal:focus {
+.btn-close-modal:hover .icon-close-modal,
+.btn-close-modal:focus .icon-close-modal {
   fill: var(--white-color);
 }
