@@ -622,7 +622,7 @@ img {
   transition: fill var(--transition-duration-and-func);
 }
 
-.icon-close-modal:hover,
-.icon-close-modal:focus {
+.btn-close-modal:hover .icon-close-modal:hover,
+.btn-close-modal:focus .icon-close-modal:focus {
   fill: var(--white-color);
 }
