@@ -571,7 +571,7 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 1;
   transition: opacity var(--transition-duration-and-func),
-    visability var(--transition-duration-and-func);
+    visibility var(--transition-duration-and-func);
 }
 
 .is-hidden {
@@ -619,7 +619,7 @@ img {
 }
 
 .icon-close-modal {
-  transition: fil var(--transition-duration-and-func);
+  transition: fill var(--transition-duration-and-func);
 }
 
 .icon-close-modal:hover,
