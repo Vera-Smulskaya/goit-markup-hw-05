@@ -111,6 +111,10 @@ img {
   color: var(--pressed-state-color);
 }
 
+.current {
+  color: var(--pressed-state-color);
+}
+
 .current::after {
   content: "";
   position: absolute;
