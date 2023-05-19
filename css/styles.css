@@ -97,7 +97,7 @@ img {
 
 .menu-item {
   position: relative;
-  color: var(--pressed-state-color);
+  color: var(--dark-color);
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: var(--main-line-height);
@@ -410,10 +410,6 @@ img {
 .social-list-footer {
   gap: 16px;
   margin-top: 0;
-}
-
-.social-list-link-footer {
-  transition: background-color var(--transition-duration-and-func);
 }
 
 .social-list-link-footer:hover,
