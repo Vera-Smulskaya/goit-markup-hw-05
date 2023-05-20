@@ -125,12 +125,7 @@ img {
   height: 4px;
   background-color: var(--pressed-state-color);
   border-radius: 2px;
-  opacity: 0;
   transition: opacity var(--transition-duration-and-func);
-}
-
-.current:hover::after {
-  opacity: 1;
 }
 
 .address {
